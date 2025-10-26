@@ -1,4 +1,4 @@
-# MCP Server Builder
+# MCP Server Builder RAD
 
 ## Visão Geral do Projeto
 
