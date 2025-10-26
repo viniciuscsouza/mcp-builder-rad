@@ -3,9 +3,9 @@ import { describe, it, expect } from 'vitest';
 import App from './App';
 
 describe('App', () => {
-  it('renders headline', () => {
+  it('renders login form', () => {
     render(<App />);
-    const headline = screen.getByText(/Welcome to Tauri!/i);
+    const headline = screen.getByRole('heading', { name: /login/i });
     expect(headline).toBeInTheDocument();
   });
 });
