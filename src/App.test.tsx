@@ -6,7 +6,7 @@ describe('App', () => {
   it('renders main layout', () => {
     render(<App />);
     const headline = screen.getByRole('heading', {
-      name: /mcp rad server builder/i,
+      name: /mcp builder/i,
     });
     expect(headline).toBeInTheDocument();
   });
